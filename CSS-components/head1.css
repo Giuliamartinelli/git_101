@@ -1,9 +1,16 @@
 .head{
-
+position: relative;
+  height: 100vh;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), @import ("Animal-Crossing.png");
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 .headimg{
 
-}
 .head h1{font-weight: bold;
 	color: #C7EBF0;
 	position: relative;
